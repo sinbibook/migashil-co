@@ -1,1 +1,1 @@
-# migashil-co
+# template-center-slider
