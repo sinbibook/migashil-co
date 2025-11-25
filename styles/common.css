@@ -312,7 +312,7 @@ body.mobile-menu-open #scrollToTop {
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1500px) {
   .mainWrap > main > .mainTitleGrp .heroSlider,
   .mainWrap > main > .fBanner {
     width: var(--layout-max);
@@ -967,14 +967,16 @@ input, button, a {
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-end;
   pointer-events: none;
   text-align: center;
   padding: clamp(1.5rem, 4vw, 3rem);
   z-index: 10;
   border-radius: inherit;
   flex-direction: column;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 }
 .heroHeading {
   font-family: 'GowoonDodum', sans-serif !important;
@@ -1268,8 +1270,13 @@ table {
     letter-spacing: 0.1em;
     font-size: clamp(1.8rem, 5vw, 2.4rem);
   }
-  .heroOverlay {
-    padding: clamp(1.25rem, 4vw, 2.5rem);
+  .mainWrap .heroSlider .heroOverlay {
+    padding: clamp(1rem, 3vw, 2rem);
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
   }
   .heroSlider .prev,
   .heroSlider .next {
@@ -1834,6 +1841,11 @@ table {
   }
   .heroOverlay {
     padding: clamp(1rem, 3vw, 2rem);
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
   }
   .heroSlider .prev,
   .heroSlider .next {
