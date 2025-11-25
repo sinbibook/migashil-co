@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.2.0",
-    "generatedAt": "2025-11-20T10:10:30.741Z",
+    "version": "1.3.0",
+    "generatedAt": "2025-11-25T06:20:01.888Z",
     "templateType": "center_slider",
     "propertyId": "5db1d155-4fd6-4aa0-b2ca-9f710e48458a",
     "homepageId": "fde0e67f-6a11-49c7-9ecc-91bbc30159da"
@@ -46,9 +46,9 @@
       "representativeName": "경연자",
       "businessAddress": "경기도 가평군 가평읍 북한강번로 1007-50",
       "businessPhone": "",
-      "businessEmail": "사업장 이메일",
-      "businessType": "individual",
-      "businessCategory": null,
+      "businessEmail": "",
+      "businessType": "",
+      "businessCategory": "",
       "eCommerceRegistrationNumber": ""
     },
     "contractInfo": {
@@ -522,7 +522,7 @@
     {
       "id": "a926fddb-661e-4d72-81ee-82b37bf26b25",
       "name": "가족 201 (리버뷰,개별바베큐,화장실2)",
-      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베",
+      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베큐",
       "roomInfo": "[ 인원추가요금 (1박기준/현장결제) ]\n- 1인당 20,000원(영유아 포함)\n- 최대인원 초과 입실불가(영유아 포함)",
       "group": null,
       "size": 73,
@@ -684,7 +684,7 @@
     {
       "id": "06fb8c92-be84-4a4e-8bd9-eadfeb267dd6",
       "name": "가족 202 (리버뷰,개별바베큐,침대룸2,화장실2)",
-      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베",
+      "description": "분리혐(침대룸 2개) : 침대룸A(퀸1)+침대룸B(퀸1)+거실+주방+화장실2 +발코니바베큐",
       "roomInfo": "[ 인원추가요금 (1박기준/현장결제) ]\n- 1인당 20,000원(영유아 포함)\n- 최대인원 초과 입실불가(영유아 포함)",
       "group": null,
       "size": 73,
@@ -846,7 +846,7 @@
     {
       "id": "92cad78a-a434-4be6-b39a-4bb0884a6bf7",
       "name": "가족 301 (리버뷰,개별바베큐,화장실2)",
-      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베",
+      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베큐",
       "roomInfo": "[ 인원추가요금 (1박기준/현장결제) ]\n- 1인당 20,000원(영유아 포함)\n- 최대인원 초과 입실불가(영유아 포함)",
       "group": null,
       "size": 73,
@@ -1008,7 +1008,7 @@
     {
       "id": "c3a204af-c76e-45bc-b06e-4b0dddcf2512",
       "name": "가족 302  (리버뷰,개별바베큐,침대룸2,화장실2)",
-      "description": "분리혐 : 침대룸1(퀸2) +거실+주방+화장실2+개별발코니바베",
+      "description": "분리혐(침대룸 2개) : 침대룸A(퀸1)+침대룸B(퀸1)+거실+주방+화장실2 +발코니바베큐",
       "roomInfo": "[ 인원추가요금 (1박기준/현장결제) ]\n- 1인당 20,000원(영유아 포함)\n- 최대인원 초과 입실불가(영유아 포함)",
       "group": null,
       "size": 73,
@@ -1188,7 +1188,7 @@
           "sections": [
             {
               "hero": {
-                "title": "",
+                "title": "gapyeong migashil pension",
                 "images": [
                   {
                     "id": "980afefd-c67f-4f56-b345-7040dfd6ab3e",
